@@ -1,4 +1,9 @@
-print("COMEÇO DO CÓDIGO")
+'''
+Faça um programa em Python que solicite a digitação da medida em graus de três ângulos, 
+verifique se os mesmos podem ou não ser os ângulos internos de um triângulo, escrevendo, em 
+seguida, na tela, o resultado dessa verificação.
+
+'''
 
 try:
     a = float(input("Digite o coeficiente 'a' da sua equação: "))
@@ -29,4 +34,3 @@ else:
                     x2 = (-b - delta ** 0.5) / (2 * a)
                     print(f"Essa equação possui duas raízes reais: {x1} e {x2}")
                     
-print("\nPROGRAMA ENCERRADO")

@@ -1,3 +1,9 @@
+'''
+Faça um programa em Python que solicite a digitação de três valores quaisquer, informando-os, 
+em seguida, em ordem crescente.
+
+'''
+
 try:
     n1 = float(input("Digite um número: "))
 except ValueError:

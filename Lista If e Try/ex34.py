@@ -1,4 +1,8 @@
-print("COMEÇO DO CÓDIGO")
+'''
+Faça um programa em Python que solicite a digitação de três valores representando, 
+respectivamente, as horas, os minutos e os segundos de um horário, verificando, a seguir se os 
+mesmos representam ou não um horário válido
+'''
 
 try:
     horas = int(input("Horas: "))
@@ -24,4 +28,3 @@ else:
                     print("O campo 'segundos' não pode ser maior que 59")
                 else:
                     print(f"O horário {horas}:{minutos}:{segundos} é válido")
-print("\nPROGRAMA ENCERRADO")
