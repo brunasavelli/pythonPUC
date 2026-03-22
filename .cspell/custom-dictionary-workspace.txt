@@ -3,8 +3,10 @@ adiantar
 adicionados
 Adicione
 ângulos
+anteriores
 avançados
 calcular
+conta
 converte
 convertido
 crescente
@@ -15,6 +17,7 @@ digitada
 digitado
 dois
 escrevendo
+exercícios
 expressas
 Faça
 graus
@@ -24,9 +27,11 @@ inteira
 inteiro
 inteiros
 internos
+Levando
 medida
 menor
 mesmos
+mostradas
 mostrar
 negativos
 número
@@ -38,6 +43,7 @@ possível
 quaisquer
 quantidade
 relação
+relações
 representam
 representando
 respectivamente
@@ -55,6 +61,7 @@ Temperatura
 temperaturas
 três
 triângulo
+unidades
 valores
 verificação
 verificando
