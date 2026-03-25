@@ -14,5 +14,5 @@ else:
     if fahrenheit < -459.67:
         print("A temperatura em Fahrenheit não pode ser menor que -459.67. Digite novamente.")
     else:
-        rankine = ((fahrenheit - 32) / 1.8) + 491.67
+        rankine = fahrenheit + 459.6721
         print(f"{fahrenheit}º F é igual a {rankine} R")

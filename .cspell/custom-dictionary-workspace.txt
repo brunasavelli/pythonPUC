@@ -27,6 +27,7 @@ inteira
 inteiro
 inteiros
 internos
+lado
 Levando
 medida
 menor
@@ -38,6 +39,7 @@ número
 números
 obtem
 Ordem
+perimetro
 podem
 possível
 quaisquer
