@@ -9,8 +9,10 @@ while chave_triangulo:
         if qntBolinhas < 2:
             print("Quantidade mínima de bolinhas não atingida")
         else:
-            for i in range(qntBolinhas):
-                print(" " * (qntBolinhas - i - 1) + "O" * (2 * i + 1))
+            print(" " * (qntBolinhas - 1) + "O")
+            for i in range(1, qntBolinhas - 1):
+                print(" " * (qntBolinhas - i - 1) + "O" + " " * (i * 2 - 1) + "O")
+            print("O" * (qntBolinhas * 2 - 1))
             continuar = input("Deseja criar outro triângulo? (S/N)")
             if continuar.upper() != "S":
                 chave_triangulo = False
