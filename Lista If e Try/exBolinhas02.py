@@ -12,6 +12,7 @@ while chave_triangulo:
             print(" " * (qntBolinhas - 1) + "O")
             for i in range(1, qntBolinhas - 1):
                 print(" " * (qntBolinhas - i - 1) + "O" + " " * (i * 2 - 1) + "O")
+            
             print("O" * (qntBolinhas * 2 - 1))
             continuar = input("Deseja criar outro triângulo? (S/N)")
             if continuar.upper() != "S":
