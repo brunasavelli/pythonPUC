@@ -4,7 +4,7 @@ na lista o número dado, e outra para ordernar os números da lista
 pelo Método da Bolha (bubble sort).
 
 Método da Bolha:
-pega os dois primeiros e vê se eles estão em order, se não estão, troca
+pega os dois primeiros e vê se eles estão em ordem, se não estão, troca
     backup=lista[posicao] # guarda o valor do primeiro elemento na váriavel backup
     lista[posicao]=lista[posicao+1] # substitui o valor do primeiro elemento pelo valor do segundo elemento
     lista[posicao+1]=backup # substitui o valor do segundo elemento pelo valor guardado na variável backup, que é o valor do primeiro elemento
