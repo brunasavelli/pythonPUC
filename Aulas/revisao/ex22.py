@@ -10,12 +10,12 @@ def desciplinaMenorFrequencia(disc, res):
   posicao = 1
   while posicao < len(res):
     if res[posicao][5] < resMenorFreq[5]:
-      resMenorFreq==res[posicao]
+      resMenorFreq=res[posicao]
     posicao += 1
-  discMenorFreq = resMenorFreq[1]
+  codDiscMenorFreq = resMenorFreq[1]
   posicao = 0
   while posicao < len(disc):
-    if discMenorFreq==disc[posicao][0]:
+    if codDiscMenorFreq == disc[posicao][0]:
       return disc[posicao][1]
     posicao += 1
     
