@@ -1,11 +1,11 @@
 disciplina=[[123, "APPC", 4], [234, "EPBD", 2]]
 
 resultado=[[26001620, 123, 1, 2026, 7.5, 0.85],
-           [26001620, 234, 1, 2026, 6.5, 0.75],
-           [26002548, 123, 1, 2025, 3.0, 0.80],
-           [26002548, 234, 1, 2026, 7.0, 0.85]]
+          [26001620, 234, 1, 2026, 6.5, 0.75],
+          [26002548, 123, 1, 2025, 3.0, 0.80],
+          [26002548, 234, 1, 2026, 7.0, 0.85]]
 
-def desciplinaMenorFrequencia(disc, res):
+def disciplinaMenorFrequencia(disc, res):
   resMenorFreq=res[0]
   posicao = 1
   while posicao < len(res):
@@ -19,4 +19,4 @@ def desciplinaMenorFrequencia(disc, res):
       return disc[posicao][1]
     posicao += 1
     
-print(desciplinaMenorFrequencia(disciplina, resultado))
+print(disciplinaMenorFrequencia(disciplina, resultado))
